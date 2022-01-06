@@ -1,14 +1,23 @@
 figure {
     font-style: italic;
     padding: 30px;
+	color: #677545;
     
 }
 
 h4 {
-    padding: 30px;
+    padding: 24px;
+	font-size: 36px;
+	color: #8A9FB5;
+	
 }
 
 img {
     height:440px;
     width:500px;
+}
+
+.generate-button {
+	background-color: #9BC178;
+	color: #201C1A;
 }
