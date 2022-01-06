@@ -11,7 +11,7 @@
     
     <!-- <link rel="stylesheet" type="text/css" href="home.css"/> -->
 
-    <link rel= "stylesheet" type= "text/css" href= "static/home.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/home.css') }}">
     
     <title>Gex is the Bexst</title>
 
@@ -25,7 +25,7 @@
     
       <figure>
         <blockquote class="blockquote">
-          <h1>"Don't take career advice from Joe Piscopo"</h1>
+          <h1>"Note to self: Don't take career advice from Joe Piscopo"</h1>
         </blockquote>
         <figcaption class="blockquote-footer"><cite>Gex</cite></figcaption>
     </figure>
@@ -38,7 +38,7 @@
     
     </div>
 
-    <img src="../static/gexglasses.png" class="img-rounded" alt="Gex"> 
+    <img src="/static/gexglasses.png" class="img-rounded" alt="Gex"> 
 
 
 
