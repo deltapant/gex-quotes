@@ -35,7 +35,7 @@ Note to self: don't drink tap water at Jerry Garcia's.
 import os
 import openai
 import json
-openai.api_key = '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'
+openai.api_key = 'API_KEY_HERE'
 
 @app.route('/quote-generator/')
 def generate_gex_quote():
